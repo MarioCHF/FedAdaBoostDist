@@ -1,0 +1,6 @@
+numpy
+scikit-learn
+flexible-fl
+flextrees
+pandas
+statds
