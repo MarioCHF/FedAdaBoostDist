@@ -360,7 +360,7 @@ class FLEnsembleDist():
                 client_OneHotprediction = self.transform.transform(client_prediction.reshape(-1,1))
                 weighted_sum = weighted_sum + server_OneHotprediction*server_weights[key]
                 weighted_sum = weighted_sum + client_OneHotprediction*(self.clients_model_weights[key,i]*self.adapt_client_weight[i])
-                                                                        #Problema, datos totales pasados a los clientes. Se le mete ruido al numero de datos totales?
+                                                                        
         predicted_indices = weighted_sum.argmax(axis=1)
         predicted_labels = np.zeros((data.shape[0],self.domY))
         predicted_labels[np.arange(data.shape[0]),predicted_indices] = 1
