@@ -11,4 +11,6 @@ arte (FRF, DistBoost.F, PreWeak.F y AdaBoost.F). Respecto a los modelos del esta
 
 En la carpeta experiments se encuentran cuadernos con dos experimentos realizados, con sus correspondientes tests estadísticos. El resto de experimentos pueden ser reproducidos de forma similar. 
 
+En la carpeta utils se encuentran herramientas para la evaluación y visualización de resultados.
+
 Por último, se ha incluido un cuaderno ejemplo para mostrar cómo ejecutar tanto FedAdaBoostDist como las adaptaciones del estado del arte y obtener sus métricas.
