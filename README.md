@@ -13,4 +13,4 @@ En la carpeta experiments se encuentran cuadernos con dos experimentos realizado
 
 En la carpeta utils se encuentran herramientas para la evaluación y visualización de resultados.
 
-Por último, se ha incluido un cuaderno ejemplo para mostrar cómo ejecutar tanto FedAdaBoostDist como las adaptaciones del estado del arte y obtener sus métricas.
+Por último, se ha incluido un cuaderno ejemplo (example.ipynb) para mostrar cómo ejecutar tanto FedAdaBoostDist como las adaptaciones del estado del arte y obtener sus métricas.
